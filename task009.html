@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>使用HTML/CSS实现一个复杂页面</title>
+	<link rel="stylesheet" href="task009.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <img src="images/task_1_9_1.jpg" alt="">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group form-search">
+          <input type="text" class="form-control search-query" placeholder="搜索">
+        </div>
+        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>登录</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="mainbody">
+	<div class="body_left">
+		<p id="body_left_p1"><img src="images/task_1_9_2.jpg" alt=""><span>Jonas</span></p>
+	<p id="body_left_p2"><span>110<br>收藏</span></p>
+	<p id="body_left_p3"><span>313<br>粉丝</span></p>
+
+    <div class="body_left_navbar">
+	<ul>
+		        <div class="body_left_shadow">            </div>
+		<li> <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>&nbsp&nbsp&nbsp <a href="#">个人报表</a>
+
+		<div class="li_ul_1">
+			<ul>
+				<li><span class="glyphicon glyphicon-chevron-right">&nbsp</span><span class="glyphicon glyphicon-folder-close"></span>&nbsp&nbsp&nbsp<a href="#">文件一</a></li>
+				<li><span class="glyphicon glyphicon-chevron-down">&nbsp</span><span class="glyphicon glyphicon-folder-close"></span>&nbsp&nbsp&nbsp<a href="#">文件二</a>
+				<div class="li_ul_2">
+					<ul>
+						<li><span class="glyphicon glyphicon-list-alt">&nbsp<a href="#">文档1</a></span></li>
+						<li><span class="glyphicon glyphicon-list-alt">&nbsp<a href="#">文档1</a></span></li>
+					</ul>
+				</div>
+				</li>
+				<li><span class="glyphicon glyphicon-chevron-right">&nbsp</span><span class="glyphicon glyphicon-folder-close"></span>&nbsp&nbsp&nbsp<a href="#">文件三</a></li>
+			</ul>
+
+		</div>
+		</li>
+		<li> <span class="glyphicon glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">个人收藏</a></li>
+		<li> <span class="glyphicon glyphicon-share" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">我的分享</a></li>
+		<li> <span class="glyphicon glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">图库</a></li>
+		<li> <span class="glyphicon glyphicon glyphicon-star" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">成长记录</a></li>
+		<li> <span class="glyphicon glyphicon-check" aria-hidden="true"></span>&nbsp&nbsp&nbsp<a href="#">账户信息</a></li>
+	</ul>		
+	</div>
+	</div>
+
+	<div class="body_right">
+		<ol class="breadcrumb">
+		  <li><a href="#">SouthPomelo</a></li>
+		  <li><a href="#">JonasBollack</a></li>
+		  <li><a href="#">JayWii</a></li>
+		  <li class="active">Lihao Chen</li>
+		</ol>
+		<div class="body_right_main">
+			<div class="body_right_main_1">
+                <div class="container">
+				<div class="row">
+					<span class="col-sm-1">查询项</span>
+					<select name="" id="" class="col-sm-1"></select>
+					<span class="col-sm-1">买方</span>
+					<select name="" id="" class="col-sm-2"></select>
+					<div class="col-sm-1"></div>
+					<a href="#" id="task_change">换</a>
+					<span class="col-sm-1">日期</span>
+					<input type="text" class="col-sm-2">
+					<span class="col-sm-1">总耗时</span>
+					<select name="" id="" class="col-sm-1"></select>
+					<input type="submit" class="col-sm-1" id="body_left_input_search" value="搜索">
+				</div>
+				<div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-1"></div>
+					<span class="col-sm-1">买方</span>
+					<select name="" id="" class="col-sm-2"></select>
+					<div class="col-sm-1"></div>
+					<span class="col-sm-1">人数</span>
+					<select name="" id="" class="col-sm-1"></select>
+					<span class="col-sm-1">成交项</span>
+					<select name="" id="" class="col-sm-2"></select>
+				</div>
+				</div>
+			</div>
+            <div class="body_right_main_2">
+<nav>
+  <ul class="pagination">
+    <li class="li_b">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="li_a"><a href="#">10:00 am<br>￥<span class="li_span">1200</span></a></li>
+    <li class="li_a"><a href="#">11:00 am<br>￥<span class="li_span">1300</span></a></li>
+    <li class="li_a"><a href="#">12:00 am<br>￥<span class="li_span">1200</span></a></li>
+    <li class="li_a"><a href="#">01:00 am<br>￥<span class="li_span">1400</span></a></li>
+    <li class="li_a"><a href="#">02:00 am<br>￥<span class="li_span">1500</span></a></li>
+    <li class="li_a"><a href="#">03:00 am<br>￥<span class="li_span">1800</span></a></li>
+    <li class="li_b">
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+    <li class="li_a"><a href="#" id="nav_right"><span class="glyphicon glyphicon-calendar" id="li_span_1"></span><span id="li_span_2">历史查询</span></a></li>
+  </ul>
+</nav>
+            </div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
